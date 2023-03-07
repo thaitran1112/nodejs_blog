@@ -1,0 +1,34 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaitran1112/nodejs_blog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "basic",
+    "nodejs",
+    "learn",
+    "nodejs"
+  ],
+  "author": "Thai Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaitran1112/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/thaitran1112/nodejs_blog#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.21"
+  }
+}
