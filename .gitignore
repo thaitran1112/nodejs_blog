@@ -1,4 +1,4 @@
 node_modules/
 yarn.lock
 
-public/css/
+src/public/css/
