@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "./public")));
 /**
  * ! HTTP logger
  */
-app.use(morgan("combined"));
+// app.use(morgan("combined"));
 
 /**
  * ! Template engine
@@ -31,7 +31,12 @@ app.get("/", (req, res) => {
 });
 
 app.get("/news", (req, res) => {
+  console.log('app.get  req:', req?.query?.q);
   res.render("news");
 });
+
+app.get('/search', (req, res) => {
+  res.render('search');
+})
 
 app.listen(port, () => console.log(`Example app listening at localhost http://localhost:${port}`));
