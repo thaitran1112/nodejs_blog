@@ -2,10 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --inspect src/app.js",
+    "start": "nodemon --inspect --experimental-specifier-resolution=node src/index.js",
     "watch":"node-sass --watch src/resource/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
